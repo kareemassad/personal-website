@@ -43,7 +43,7 @@ function App() {
         <div className="landing">
           <div className="landingWrapper">
             <div className="landingLeft">
-              <h1>Kareem El Assad.</h1>
+              <h1>Kareem El Assad. This is a simple change</h1>
               <p>Hello, my name is Kareem. I am a <span className="blue"> Computer Systems Engineering </span>Student
                 at Carleton University</p>
               <ul>
