@@ -4,14 +4,19 @@
   "private": true,
   "homepage": "http://kareemelassad.me/",
   "dependencies": {
+    "@eva-design/eva": "^1.4.0",
+    "@material-ui/core": "^4.9.3",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
     "circular-std": "^1.0.3",
     "create-react-app": "^3.4.0",
+    "framer-motion": "^1.8.4",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-native-ui-kitten": "^4.4.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0"
   },
   "scripts": {
