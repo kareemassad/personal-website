@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.5a13ea5a.chunk.css",
+    "main.css": "/static/css/main.836faa5f.chunk.css",
     "main.js": "/static/js/main.e75e84f9.chunk.js",
     "main.js.map": "/static/js/main.e75e84f9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.aa739829.js",
@@ -9,10 +9,10 @@
     "static/js/2.c0e85cf5.chunk.js": "/static/js/2.c0e85cf5.chunk.js",
     "static/js/2.c0e85cf5.chunk.js.map": "/static/js/2.c0e85cf5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3e940ef55977016a0b140774819ea2f1.js": "/precache-manifest.3e940ef55977016a0b140774819ea2f1.js",
+    "precache-manifest.d630cd8190bb93d594b801955024dc62.js": "/precache-manifest.d630cd8190bb93d594b801955024dc62.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.b8367bcc.chunk.css.map": "/static/css/2.b8367bcc.chunk.css.map",
-    "static/css/main.5a13ea5a.chunk.css.map": "/static/css/main.5a13ea5a.chunk.css.map",
+    "static/css/main.836faa5f.chunk.css.map": "/static/css/main.836faa5f.chunk.css.map",
     "static/js/2.c0e85cf5.chunk.js.LICENSE.txt": "/static/js/2.c0e85cf5.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/CircularStd-MediumItalic.7095d23a.ttf",
     "static/media/chat-red.svg": "/static/media/chat-red.6ff308a2.svg",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.aa739829.js",
     "static/css/2.b8367bcc.chunk.css",
     "static/js/2.c0e85cf5.chunk.js",
-    "static/css/main.5a13ea5a.chunk.css",
+    "static/css/main.836faa5f.chunk.css",
     "static/js/main.e75e84f9.chunk.js"
   ]
 }
