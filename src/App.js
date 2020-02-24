@@ -10,8 +10,9 @@ import linkedin_Logo from "./assets/linkedin.svg";
 import resume_Logo from "./assets/resume.png";
 import scroll from './assets/Scroll.png';
 import mainPic from './assets/mainPic.svg';
+import resumeDownload from './assets/kareemResume.pdf';
 
-function App() {
+function App() { 
   return (
     <div className="App">
       <div>
@@ -23,7 +24,7 @@ function App() {
           <div className="navIcons">
             <a href="https://github.com/kareemassad"><img src={github_Logo} alt="Github-logo" /></a>
             <a href="https://www.linkedin.com/in/kareem-el-assad-759113140/"><img src={linkedin_Logo} alt="LinkedIn-logo" /></a>
-            <a href="/assets/kareemResume.pdf"><img src={resume_Logo} alt="Resume" /></a>
+            <a href={resumeDownload}><img src={resume_Logo} alt="Resume" /></a>
           </div>
         </div>
         <div className="landing">
