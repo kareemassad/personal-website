@@ -11,6 +11,7 @@ import resume_Logo from "./assets/resume.png";
 import scroll from './assets/Scroll.png';
 import mainPic from './assets/mainPic.svg';
 import resumeDownload from './assets/kareemResume.pdf';
+// import {Animated} from "react-animated-css";
 
 function App() { 
   return (
@@ -52,11 +53,14 @@ function App() {
                 </li>
               </ul>
             </div>
+            {/* Right hand side landing section */}
             <div className="landingRight">
               <img src={mainPic} className="mainPic" alt="Main with and circle" />
-            </div>
+            </div>  
           </div>
-          <img src={scroll} alt="scroll down" className="scroll" />
+
+          {/* <Animated animationIn="bounce" isVisible={true}></Animated> */}
+            <img src={scroll} alt="scroll down" className="scroll" />
         </div>
       </div>
     </div>

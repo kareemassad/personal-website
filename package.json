@@ -9,11 +9,13 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
+    "animate.css": "^3.7.2",
     "circular-std": "^1.0.3",
     "create-react-app": "^3.4.0",
     "framer-motion": "^1.8.4",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
+    "react-animated-css": "^1.2.1",
     "react-dom": "^16.12.0",
     "react-native-ui-kitten": "^4.4.0",
     "react-router-dom": "^5.1.2",
@@ -25,7 +27,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "structor": "structor"
   },
   "eslintConfig": {
     "extends": "react-app"
