@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Header.scss';
-import resume from "../../assets/kareemResume.pdf";
+import resume from "../../assets/files/kareemResume.pdf";
 
 var MobileMenuStyle = {
     height: "0px"
@@ -72,7 +72,7 @@ export default class Header extends Component {
                                     <div className="resume-link">
                                         View Resume <i className="fas fa-chevron-right"></i>
                                     </div>
-                                </a>
+                                </a> 
                                 <Anchors />
                             </div>
                             <div className="short-options">

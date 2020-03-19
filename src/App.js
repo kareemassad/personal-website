@@ -8,11 +8,13 @@ import Loader from "./components/loader/Loader";
 import Footer from './components/layout/Footer';
 import ScrollableAnchor from 'react-scrollable-anchor';
 
+
 const Sections = () => {
   const anchors = ['About'];
-  const sectionsArray = [<MainPage />];
+  const sectionsArray = [<MainPage />]; //will be adding more pages as we go
   return (anchors.map((item, index) => { return (<ScrollableAnchor id={item} key={index}><div>{sectionsArray[index]}</div></ScrollableAnchor>) }));
 }
+
 
 class App extends Component {  
   render() {

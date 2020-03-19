@@ -31,8 +31,7 @@ export default class Footer extends Component {
                                         </a>
                                         <a className="no-underline in-line" href="mailto:kareemassad5@gmail.com">
                                             <div className="col-md-auto name">
-                                                <i className="far fa-envelope social-icon"></i>
-                                                Email
+                                                <i className="far fa-envelope social-icon"></i> Email
                                             </div>
                                         </a>
                                     </div>
@@ -70,9 +69,7 @@ export default class Footer extends Component {
                 <div className="created-by">
                     I built this site using <b>Javascript</b> and <b>React.</b> You can find the source code <a href="https://github.com/kareemassad/personal-website">here</a> ❤
                 </div>
-
                 <div className="blue-line">
-
                 </div>
 
             </div >
