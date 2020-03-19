@@ -1,3 +1,5 @@
+@import "../../variable.scss";
+
 .flip-in-hor-top {
 	-webkit-animation: flip-in-hor-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: flip-in-hor-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -145,7 +147,7 @@
 
 .logo h1 {
     font-size: 32px;
-    color: #3C3B48;
+    color: $dark-color;
 //     font-family: CircularStd, sans-serif;
     letter-spacing: 1px;
     font-family: Helvetica-Neue-STD-65;
@@ -159,7 +161,7 @@
 }
 
 .menu-icon:hover {
-    color: #2855FF;
+    color: $base-color;
     cursor: pointer;
 }
 
@@ -177,7 +179,7 @@
 
 .full-options a:hover {
     cursor: pointer;
-    color: #4895F0;
+    color: $accent-color;
     text-decoration: none;
 }
 
@@ -195,13 +197,13 @@
 
 .resume-link {
     font-size: 18px;
-    color: #EC4551;
+    color: $base-color;
 //  font-family: CircularStd, sans-serif;
     font-family: Helvetica-Neue-STD-65;
 }
 
 .resume-link:hover {
     cursor: pointer;
-    color: rgb(189, 78, 85);
+    color: $accent-color;
     text-decoration: none;
 }

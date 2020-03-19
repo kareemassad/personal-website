@@ -1,3 +1,5 @@
+$base-color: #EC4551;
+
 @font-face {
   font-family: Helvetica-Neue-STD-65;
   src: url(./fonts/helveticaNeue/Helvetica-Neue-LT-Std-65-Medium_22532.ttf);
@@ -196,17 +198,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
