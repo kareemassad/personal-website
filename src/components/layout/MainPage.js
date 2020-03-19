@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './MainPage.scss';
 import me from '../../assets/images/meS.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default class MainPage extends Component {
     render() {
@@ -14,12 +15,14 @@ export default class MainPage extends Component {
                                     Hello! <span role="img"></span>
                                 </h1>
                                 <p>
-                                    My name is <b>Kareem El Assad</b> and I am a Computer Systems Engineering Students based in Ottawa, Canada. I am a <b>2nd year student at the
-                                    Carleton University</b> and I am currently exploring Machine Learning!
+                                    My name is <b>Kareem El Assad</b> and I am a Computer Systems Engineering student based 
+                                    in Ottawa, Canada. I am a <b>2nd year student at Carleton University</b> and I am currently 
+                                    exploring Machine Learning!
 							    </p>
-                                <button type="button" className="btn btn-outline-primary dark-blue">
-                                    Send me a message 
-                                    <i className="fas fa-envelope mail-icon"></i>
+                                <button type="button" className="btn btn-outline-danger theme-color">
+                                    Send me a message
+                                    {/* <FontAwesomeIcon icon="fas fa-envelope" /> 
+                                    <i className="fas fa-envelope"></i> */}
                                 </button>
                             </div>
                         </div>
