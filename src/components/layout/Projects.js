@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Projects.scss';
 import Slider from "react-slick";
 import basic from '../../assets/images/chat-red.svg'
+import basilPic from '../../assets/images/basil-pic.png'
 
 export default class Projects extends Component {
     render() {
@@ -28,7 +29,7 @@ export default class Projects extends Component {
                 <div className="project-section">
                     <div id="flex-1" className="row">
                         <div id="a" className="col-sm-6">
-                            <img src={basic} className='basil-pic' alt="loading..." />
+                            <img src={basilPic} className='basil-pic' alt="loading..." />
                         </div>
                         <div id="b" className="col-sm-6 project-description">
                             <div className="project-type">
@@ -46,34 +47,24 @@ export default class Projects extends Component {
                                         Basil is a simple recipe app made for students or anyone trying to save money while eating healthy. 
                                         It uses multiple nutrition APIs to help users prepare healthy meals with the ingredients they already have.
                                     </p>
-                                    <a href="https://github.com/TalentBoard/Talentboard">
+                                    <a href="https://github.com/kareemassad/basil">
                                         <button type="button" className="btn btn-dark">
                                             Github <i className="fab fa-github github-icon"></i>
                                         </button>
-                                    </a>
-                                    <a href="https://talentboard-app.herokuapp.com/login">
-                                        <button type="button" className="btn btn-light button-2" href="https://github.com/TalentBoard/Talentboard">
-                                            Live Demo
-                                    </button>
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div id="c" className="col-sm-6">
-                            <a href="https://github.com/TalentBoard/Talentboard">
+                            <a href="https://github.com/kareemassad/basil">
                                 <button type="button" className="btn btn-dark mobile-buttons">
                                     Github <i className="fab fa-github github-icon"></i>
-                                </button>
-                            </a>
-                            <a href="https://talentboard-app.herokuapp.com/login">
-                                <button type="button" className="btn btn-light button-2 mobile-buttons" href="https://github.com/TalentBoard/Talentboard">
-                                    Live Demo
                                 </button>
                             </a>
                         </div>
                     </div>
                 </div>
-
+                {/* PROJECT 2 */}
                 <div className="project-section">
                     <div id="flex-2" className="row">
                         <div id="a" className="col-sm-6 project-description">
@@ -81,7 +72,7 @@ export default class Projects extends Component {
                                 Open Source
                             </div>
                             <div className="project-name">
-                                Logo detection (Darknet)
+                                Assignment Sorter
                             </div>
                             <div className="row">
                                 <div className="col-3">
@@ -89,9 +80,9 @@ export default class Projects extends Component {
                                 </div>
                                 <div className="col-7">
                                     <p>
-                                        I used Joseph Redmon's image detection framework <a href="https://pjreddie.com/media/files/papers/yolo.pdf">Darknet</a> to detect popular logos in images. I added some additonal features to the framework such as a watch folder, threading for network predictions, and load balancing images in the watch folder.
+                                        Pariatur culpa labore tempor exercitation id tempor ut deserunt dolor dolore excepteur proident. Quis do excepteur cillum magna do. Dolor quis magna nisi laborum ullamco velit mollit sit in ex ullamco anim. Ipsum laborum consequat commodo incididunt amet amet nostrud magna voluptate. Adipisicing Lorem non velit nostrud in.
                                     </p>
-                                    <a href="https://github.com/AmarJ/darknet-NN-framework">
+                                    <a href="">
                                         <button type="button" className="btn btn-dark">
                                             Github <i className="fab fa-github github-icon"></i>
                                         </button>
@@ -103,7 +94,7 @@ export default class Projects extends Component {
                             <img src={basic} className='talentboard-gif' alt="loading..." />
                         </div>
                         <div id="c" className="col-sm-6">
-                            <a href="https://github.com/AmarJ/darknet-NN-framework">
+                            <a href="">
                                 <button type="button" className="btn btn-dark mobile-buttons">
                                     Github <i className="fab fa-github github-icon"></i>
                                 </button>
