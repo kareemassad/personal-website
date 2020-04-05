@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Projects.scss';
-import Slider from "react-slick";
+// import Slider from "react-slick";
 import basic from '../../assets/images/chat-red.svg'
 import basilPic from '../../assets/images/basil-pic.png'
 
@@ -82,7 +82,7 @@ export default class Projects extends Component {
                                     <p>
                                         Pariatur culpa labore tempor exercitation id tempor ut deserunt dolor dolore excepteur proident. Quis do excepteur cillum magna do. Dolor quis magna nisi laborum ullamco velit mollit sit in ex ullamco anim. Ipsum laborum consequat commodo incididunt amet amet nostrud magna voluptate. Adipisicing Lorem non velit nostrud in.
                                     </p>
-                                    <a href="">
+                                    <a href="https://github.com/kareemassad/assignment-sorter">
                                         <button type="button" className="btn btn-dark">
                                             Github <i className="fab fa-github github-icon"></i>
                                         </button>
@@ -91,10 +91,10 @@ export default class Projects extends Component {
                             </div>
                         </div>
                         <div id="a" className="col-sm-6">
-                            <img src={basic} className='talentboard-gif' alt="loading..." />
+                            <img src={basic} className='basil-pic' alt="loading..." />
                         </div>
                         <div id="c" className="col-sm-6">
-                            <a href="">
+                            <a href="https://github.com/kareemassad/assignment-sorter">
                                 <button type="button" className="btn btn-dark mobile-buttons">
                                     Github <i className="fab fa-github github-icon"></i>
                                 </button>
