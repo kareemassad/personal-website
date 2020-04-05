@@ -1,31 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.836faa5f.chunk.css",
-    "main.js": "/static/js/main.4288eab0.chunk.js",
-    "main.js.map": "/static/js/main.4288eab0.chunk.js.map",
+    "main.css": "/static/css/main.262c4cb0.chunk.css",
+    "main.js": "/static/js/main.46a7c9c9.chunk.js",
+    "main.js.map": "/static/js/main.46a7c9c9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.aa739829.js",
     "runtime-main.js.map": "/static/js/runtime-main.aa739829.js.map",
-    "static/css/2.b8367bcc.chunk.css": "/static/css/2.b8367bcc.chunk.css",
-    "static/js/2.41b41d55.chunk.js": "/static/js/2.41b41d55.chunk.js",
-    "static/js/2.41b41d55.chunk.js.map": "/static/js/2.41b41d55.chunk.js.map",
+    "static/css/2.e593e167.chunk.css": "/static/css/2.e593e167.chunk.css",
+    "static/js/2.9f4ac8e1.chunk.js": "/static/js/2.9f4ac8e1.chunk.js",
+    "static/js/2.9f4ac8e1.chunk.js.map": "/static/js/2.9f4ac8e1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7d2278356c5c1ce92d9b38df8edc4867.js": "/precache-manifest.7d2278356c5c1ce92d9b38df8edc4867.js",
+    "precache-manifest.fe62b68f561dd476627e788446f74df8.js": "/precache-manifest.fe62b68f561dd476627e788446f74df8.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.b8367bcc.chunk.css.map": "/static/css/2.b8367bcc.chunk.css.map",
-    "static/css/main.836faa5f.chunk.css.map": "/static/css/main.836faa5f.chunk.css.map",
-    "static/js/2.41b41d55.chunk.js.LICENSE.txt": "/static/js/2.41b41d55.chunk.js.LICENSE.txt",
+    "static/css/2.e593e167.chunk.css.map": "/static/css/2.e593e167.chunk.css.map",
+    "static/css/main.262c4cb0.chunk.css.map": "/static/css/main.262c4cb0.chunk.css.map",
+    "static/js/2.9f4ac8e1.chunk.js.LICENSE.txt": "/static/js/2.9f4ac8e1.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/CircularStd-MediumItalic.7095d23a.ttf",
-    "static/media/chat-red.svg": "/static/media/chat-red.6ff308a2.svg",
-    "static/media/github.svg": "/static/media/github.e8a70790.svg",
+    "static/media/App.scss": "/static/media/Helvetica-Neue-LT-Std-65-Medium_22532.db8b90d6.ttf",
+    "static/media/mdb.css": "/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/basil-pic.png": "/static/media/basil-pic.827c39e3.png",
+    "static/media/all.min.css": "/static/media/fa-solid-900.ec763292.svg",
+    "static/media/full-gif.gif": "/static/media/full-gif.ece95ed8.gif",
     "static/media/kareemResume.pdf": "/static/media/kareemResume.958b5dde.pdf",
-    "static/media/linkedin.svg": "/static/media/linkedin.9fce717d.svg",
-    "static/media/mainPic.svg": "/static/media/mainPic.5f2633ff.svg"
+    "static/media/meS.svg": "/static/media/meS.b6a4d276.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.aa739829.js",
-    "static/css/2.b8367bcc.chunk.css",
-    "static/js/2.41b41d55.chunk.js",
-    "static/css/main.836faa5f.chunk.css",
-    "static/js/main.4288eab0.chunk.js"
+    "static/css/2.e593e167.chunk.css",
+    "static/js/2.9f4ac8e1.chunk.js",
+    "static/css/main.262c4cb0.chunk.css",
+    "static/js/main.46a7c9c9.chunk.js"
   ]
 }

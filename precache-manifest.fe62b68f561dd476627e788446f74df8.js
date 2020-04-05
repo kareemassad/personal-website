@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8269938260d17f184018a7d63b327eea",
+    "revision": "469300a80ffeefe31dee664e609dbcaf",
     "url": "/index.html"
   },
   {
-    "revision": "e2323005a4651fed71d7",
-    "url": "/static/css/2.b8367bcc.chunk.css"
+    "revision": "e1c5a08c888c4d5b9edb",
+    "url": "/static/css/2.e593e167.chunk.css"
   },
   {
-    "revision": "a200a9032410db1cdcc1",
-    "url": "/static/css/main.836faa5f.chunk.css"
+    "revision": "05a7b81e8d7f140aa0be",
+    "url": "/static/css/main.262c4cb0.chunk.css"
   },
   {
-    "revision": "e2323005a4651fed71d7",
-    "url": "/static/js/2.41b41d55.chunk.js"
+    "revision": "e1c5a08c888c4d5b9edb",
+    "url": "/static/js/2.9f4ac8e1.chunk.js"
   },
   {
-    "revision": "99bd0487192ec9e7d9ee8fbbd91ee444",
-    "url": "/static/js/2.41b41d55.chunk.js.LICENSE.txt"
+    "revision": "2a58a51d910c8483a562ac721d1131f8",
+    "url": "/static/js/2.9f4ac8e1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a200a9032410db1cdcc1",
-    "url": "/static/js/main.4288eab0.chunk.js"
+    "revision": "05a7b81e8d7f140aa0be",
+    "url": "/static/js/main.46a7c9c9.chunk.js"
   },
   {
     "revision": "5db6dfe7a8e2b4135dd2",
@@ -156,23 +156,91 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/CircularStd-MediumItalic.7095d23a.ttf"
   },
   {
-    "revision": "6ff308a2f7137e476705e197cbcf6cfa",
-    "url": "/static/media/chat-red.6ff308a2.svg"
+    "revision": "db8b90d6037c4eef42c5a2ea7fec4071",
+    "url": "/static/media/Helvetica-Neue-LT-Std-65-Medium_22532.db8b90d6.ttf"
   },
   {
-    "revision": "e8a70790c15a5e840ec01e018b9215ea",
-    "url": "/static/media/github.e8a70790.svg"
+    "revision": "11911410dca2de148f30954eb2fd5eab",
+    "url": "/static/media/arrow_left.11911410.svg"
+  },
+  {
+    "revision": "8ef6a08cdc1154920165680a4edde771",
+    "url": "/static/media/arrow_right.8ef6a08c.svg"
+  },
+  {
+    "revision": "827c39e336eab10c17fb625e90513a2b",
+    "url": "/static/media/basil-pic.827c39e3.png"
+  },
+  {
+    "revision": "0cb5a5c0d251c109458c85c6afeffbaa",
+    "url": "/static/media/fa-brands-400.0cb5a5c0.svg"
+  },
+  {
+    "revision": "13685372945d816a2b474fc082fd9aaa",
+    "url": "/static/media/fa-brands-400.13685372.ttf"
+  },
+  {
+    "revision": "a06da7f0950f9dd366fc9db9d56d618a",
+    "url": "/static/media/fa-brands-400.a06da7f0.woff2"
+  },
+  {
+    "revision": "c1868c9545d2de1cf8488f1dadd8c9d0",
+    "url": "/static/media/fa-brands-400.c1868c95.eot"
+  },
+  {
+    "revision": "ec3cfddedb8bebd2d7a3fdf511f7c1cc",
+    "url": "/static/media/fa-brands-400.ec3cfdde.woff"
+  },
+  {
+    "revision": "261d666b0147c6c5cda07265f98b8f8c",
+    "url": "/static/media/fa-regular-400.261d666b.eot"
+  },
+  {
+    "revision": "89ffa3aba80d30ee0a9371b25c968bbb",
+    "url": "/static/media/fa-regular-400.89ffa3ab.svg"
+  },
+  {
+    "revision": "c20b5b7362d8d7bb7eddf94344ace33e",
+    "url": "/static/media/fa-regular-400.c20b5b73.woff2"
+  },
+  {
+    "revision": "db78b9359171f24936b16d84f63af378",
+    "url": "/static/media/fa-regular-400.db78b935.ttf"
+  },
+  {
+    "revision": "f89ea91ecd1ca2db7e09baa2c4b156d1",
+    "url": "/static/media/fa-regular-400.f89ea91e.woff"
+  },
+  {
+    "revision": "1ab236ed440ee51810c56bd16628aef0",
+    "url": "/static/media/fa-solid-900.1ab236ed.ttf"
+  },
+  {
+    "revision": "a0369ea57eb6d3843d6474c035111f29",
+    "url": "/static/media/fa-solid-900.a0369ea5.eot"
+  },
+  {
+    "revision": "b15db15f746f29ffa02638cb455b8ec0",
+    "url": "/static/media/fa-solid-900.b15db15f.woff2"
+  },
+  {
+    "revision": "bea989e82b07e9687c26fc58a4805021",
+    "url": "/static/media/fa-solid-900.bea989e8.woff"
+  },
+  {
+    "revision": "ec763292e583294612f124c0b0def500",
+    "url": "/static/media/fa-solid-900.ec763292.svg"
+  },
+  {
+    "revision": "ece95ed81c8b44bfe6fa86407ab8cfba",
+    "url": "/static/media/full-gif.ece95ed8.gif"
   },
   {
     "revision": "958b5dde6727f7fd8b64b0120d0a7333",
     "url": "/static/media/kareemResume.958b5dde.pdf"
   },
   {
-    "revision": "9fce717d4fc1de102e268a33162a486a",
-    "url": "/static/media/linkedin.9fce717d.svg"
-  },
-  {
-    "revision": "5f2633ff9a421bde47b816ccd2568c92",
-    "url": "/static/media/mainPic.5f2633ff.svg"
+    "revision": "b6a4d276b068273d165b375c0a2c8a74",
+    "url": "/static/media/meS.b6a4d276.svg"
   }
 ]);
