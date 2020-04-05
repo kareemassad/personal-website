@@ -3,6 +3,8 @@ import './Projects.scss';
 import Slider from "react-slick";
 import basic from '../../assets/images/chat-red.svg'
 import basilPic from '../../assets/images/basil-pic.png'
+// import sudokuGif from '../../assets/gifs/full-gif.gif'
+import sudokuGif from '../../assets/gifs/full-gif-99comp.gif'
 
 export default class Projects extends Component {
     render() {
@@ -72,7 +74,7 @@ export default class Projects extends Component {
                                 Open Source
                             </div>
                             <div className="project-name">
-                                Assignment Sorter
+                                Sudoku.com Solver
                             </div>
                             <div className="row">
                                 <div className="col-3">
@@ -91,7 +93,7 @@ export default class Projects extends Component {
                             </div>
                         </div>
                         <div id="a" className="col-sm-6">
-                            <img src={basic} className='talentboard-gif' alt="loading..." />
+                            <img src={sudokuGif} className='talentboard-gif' alt="loading..." />
                         </div>
                         <div id="c" className="col-sm-6">
                             <a href="">

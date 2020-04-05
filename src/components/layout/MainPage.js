@@ -21,8 +21,8 @@ export default class MainPage extends Component {
 							    </p>
                                 <button type="button" className="btn btn-outline-danger theme-color">
                                     Send me a message
-                                    {/* <FontAwesomeIcon icon="fas fa-envelope" /> 
-                                    <i className="fas fa-envelope"></i> */}
+                                    <FontAwesomeIcon icon="fas fa-envelope" /> 
+                                    <i className="fas fa-envelope"></i>
                                 </button>
                             </div>
                         </div>

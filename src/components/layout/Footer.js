@@ -66,10 +66,10 @@ export default class Footer extends Component {
                     </div>
                 </div>
 
-                <div className="created-by">
+                {/* <div className="created-by">
                     I built this site using <b>Javascript</b> and <b>React.</b> You can find the source code <a href="https://github.com/kareemassad/personal-website">here</a> ❤
-                </div>
-                <div className="blue-line">
+                </div> */}
+                <div className="red-line">
                 </div>
 
             </div >
