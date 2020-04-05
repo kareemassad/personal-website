@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 import './Projects.scss';
 // import Slider from "react-slick";
-import basic from '../../assets/images/chat-red.svg'
 import basilPic from '../../assets/images/basil-pic.png'
-// import sudokuGif from '../../assets/gifs/full-gif.gif'
-import sudokuGif from '../../assets/gifs/full-gif-99comp.gif'
+import sudokuGif from '../../assets/gifs/full-gif.gif'
+// import sudokuGif from '../../assets/gifs/full-gif-99comp.gif'
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "bootstrap-css-only/css/bootstrap.min.css";
+import "mdbreact/dist/css/mdb.css";
+
+// import { MDBIcon } from "mdbreact"
 
 export default class Projects extends Component {
     render() {
@@ -82,7 +86,8 @@ export default class Projects extends Component {
                                 </div>
                                 <div className="col-7">
                                     <p>
-                                        Pariatur culpa labore tempor exercitation id tempor ut deserunt dolor dolore excepteur proident. Quis do excepteur cillum magna do. Dolor quis magna nisi laborum ullamco velit mollit sit in ex ullamco anim. Ipsum laborum consequat commodo incididunt amet amet nostrud magna voluptate. Adipisicing Lorem non velit nostrud in.
+                                        A Python program that uses the backtracking algorithm and Python Selenium to interface and solve
+                                        puzzles on sudoku.com.
                                     </p>
                                     <a href="https://github.com/kareemassad/assignment-sorter">
                                         <button type="button" className="btn btn-dark">
@@ -93,11 +98,7 @@ export default class Projects extends Component {
                             </div>
                         </div>
                         <div id="a" className="col-sm-6">
-<<<<<<< HEAD
-                            <img src={sudokuGif} className='talentboard-gif' alt="loading..." />
-=======
-                            <img src={basic} className='basil-pic' alt="loading..." />
->>>>>>> 175d6892a6e60aca1a9631ed9ecdcc3822f95205
+                            <img src={sudokuGif} className='sudoku-gif' alt="loading..." />
                         </div>
                         <div id="c" className="col-sm-6">
                             <a href="https://github.com/kareemassad/assignment-sorter">

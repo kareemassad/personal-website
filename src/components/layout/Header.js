@@ -69,7 +69,7 @@ export default class Header extends Component {
                         <div className="col slide-in-blurred-right">
                             <div className="full-options">
                                 <a href={resume}>
-                                    <div className="resume-link">
+                                    <div className="resume-link ">
                                         View Resume <i className="fas fa-chevron-right"></i>
                                     </div>
                                 </a> 

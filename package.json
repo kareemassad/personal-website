@@ -19,6 +19,7 @@
     "circular-std": "^1.0.3",
     "create-react-app": "^3.4.0",
     "framer-motion": "^1.8.4",
+    "mdbreact": "^4.25.5",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-animated-css": "^1.2.1",
