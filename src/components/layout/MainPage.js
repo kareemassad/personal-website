@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './MainPage.scss';
 import me from '../../assets/images/meS.svg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default class MainPage extends Component {
     render() {
