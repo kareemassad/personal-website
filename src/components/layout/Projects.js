@@ -38,7 +38,7 @@ export default class Projects extends Component {
                             <img src={basilPic} className='basil-pic' alt="loading..." />
                         </div>
                         <div id="b" className="col-sm-6 project-description">
-                            <div className="project-type">
+                            <div className="project-type not-mobile">
                                 Web app
                             </div>
                             <div className="project-name">
@@ -61,17 +61,17 @@ export default class Projects extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div id="c" className="col-sm-6">
+                        {/* <div id="c" className="col-sm-6">
                             <a href="https://github.com/kareemassad/basil">
                                 <button type="button" className="btn btn-dark mobile-buttons">
                                     Github <i className="fab fa-github github-icon"></i>
                                 </button>
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 {/* PROJECT 2 */}
-                <div className="project-section">
+                {/* <div className="project-section">
                     <div id="flex-2" className="row">
                         <div id="a" className="col-sm-6 project-description">
                             <div className="project-type">
@@ -89,7 +89,7 @@ export default class Projects extends Component {
                                         A Python program that uses the backtracking algorithm and Python Selenium to interface and solve
                                         puzzles on sudoku.com.
                                     </p>
-                                    <a href="https://github.com/kareemassad/assignment-sorter">
+                                    <a href="https://github.com/kareemassad/sudoku-solver-py">
                                         <button type="button" className="btn btn-dark">
                                             Github <i className="fab fa-github github-icon"></i>
                                         </button>
@@ -101,13 +101,54 @@ export default class Projects extends Component {
                             <img src={sudokuGif} className='sudoku-gif' alt="loading..." />
                         </div>
                         <div id="c" className="col-sm-6">
-                            <a href="https://github.com/kareemassad/assignment-sorter">
+                            <a href="https://github.com/kareemassad/sudoku-solver-py">
                                 <button type="button" className="btn btn-dark mobile-buttons">
                                     Github <i className="fab fa-github github-icon"></i>
                                 </button>
                             </a>
                         </div>
 
+                    </div>
+                </div> */}
+                {/* PROJECT three */}
+                <div className="project-section">
+                    <div id="flex-1" className="row">
+                        <div id="b" className="col-sm-6 project-description">
+                            <div className="hacky-mobile-fix">
+                                <div className="project-type not-mobile">
+                                    Open Source
+                                </div>
+                                <div className="project-name">
+                                    Sudoku.com Solver
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-3 not-mobile">
+                                    <hr />
+                                </div>
+                                <div className="col-7">
+                                    <p>
+                                        A Python program that uses the backtracking algorithm and Python Selenium to interface and solve
+                                        puzzles on sudoku.com.
+                                    </p>
+                                    <a href="https://github.com/kareemassad/sudoku-solver-py">
+                                        <button type="button" className="btn btn-dark">
+                                            Github <i className="fab fa-github github-icon"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="a" className="col-sm-6">
+                            <img src={sudokuGif} className='sudoku-gif' alt="loading..." />
+                        </div>
+                        {/* <div id="c" className="col-sm-6">
+                            <a href="https://github.com/kareemassad/sudoku-solver-py">
+                                <button type="button" className="btn btn-dark mobile-buttons">
+                                    Github <i className="fab fa-github github-icon"></i>
+                                </button>
+                            </a>
+                        </div> */}
                     </div>
                 </div>
             </div>
