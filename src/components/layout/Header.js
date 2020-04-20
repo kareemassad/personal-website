@@ -6,21 +6,19 @@ var MobileMenuStyle = {
     height: "0px"
 }
 
-// var MobileMenuIcon = {
-//     visibility: false
-// }
+//var MobileMenuIcon = {
+//    visibility: false
+//}
 
-// var MobileCloseIcon = {
-//     isHidden: true
-// }
+//var MobileCloseIcon = {
+//    isHidden: true
+//}
 
 const MobileMenu = (props) => {
     return (
         <div className="nav-menu" style={MobileMenuStyle}>
             <a href={resume}>
-                <div className="resume-link">
-                    View Resume <i className="fas fa-chevron-right"></i>
-                </div>
+                Resume
             </a>
             <Anchors />
         </div>
@@ -28,7 +26,7 @@ const MobileMenu = (props) => {
 }
 
 const Anchors = () => {
-    const anchorsArr = ["Project", "About"];
+    const anchorsArr = ["About", "Projects"];
     return (anchorsArr.map(item => { return (<a key={item} href={`#${item}`}>{item}</a>) }));
 }
 
@@ -62,7 +60,7 @@ export default class Header extends Component {
                                     <h1>Kareem El Assad</h1>
                                 </span>
                                 <span className="short-name">
-                                    <h1>Kareem</h1>
+                                    <h1>Home</h1>
                                 </span>
                             </div>
                         </div>

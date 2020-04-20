@@ -12,15 +12,6 @@ import "mdbreact/dist/css/mdb.css";
 
 export default class Projects extends Component {
     render() {
-
-        // var settings = {
-        //     dots: true,
-        //     infinite: true,
-        //     speed: 500,
-        //     slidesToShow: 1,
-        //     slidesToScroll: 1
-        // };
-
         return (
             <div className="projects-wrapper">
                 <div className="container">
@@ -38,14 +29,14 @@ export default class Projects extends Component {
                             <img src={basilPic} className='basil-pic' alt="loading..." />
                         </div>
                         <div id="b" className="col-sm-6 project-description">
-                            <div className="project-type not-mobile">
+                            <div className="project-type">
                                 Web app
                             </div>
                             <div className="project-name">
                                 Basil
                             </div>
                             <div className="row">
-                                <div className="col-3 not-mobile">
+                                <div className="col-3">
                                     <hr />
                                 </div>
                                 <div className="col-7">
@@ -58,27 +49,36 @@ export default class Projects extends Component {
                                             Github <i className="fab fa-github github-icon"></i>
                                         </button>
                                     </a>
+                                    {/* <a href="https://github.com/kareemassad/basil">
+                                        <button type="button" className="btn btn-dark button-2">
+                                            Live Demo <i className="fab fa-github github-icon"></i>
+                                        </button>
+                                    </a> */}
                                 </div>
                             </div>
                         </div>
-                        {/* <div id="c" className="col-sm-6">
+                        <div id="c" className="col-sm-6">
                             <a href="https://github.com/kareemassad/basil">
                                 <button type="button" className="btn btn-dark mobile-buttons">
                                     Github <i className="fab fa-github github-icon"></i>
                                 </button>
                             </a>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
-                {/* PROJECT 2 */}
-                {/* <div className="project-section">
+                <br className=""></br>
+                <br></br>
+                {/* PROJECT Two */}
+                <div className="project-section">
                     <div id="flex-2" className="row">
                         <div id="a" className="col-sm-6 project-description">
-                            <div className="project-type">
-                                Open Source
-                            </div>
-                            <div className="project-name">
-                                Sudoku.com Solver
+                            <div className="">
+                                <div className="project-type">
+                                    Open Source
+                                </div>
+                                <div className="project-name">
+                                    Sudoku.com Solver
+                                </div>
                             </div>
                             <div className="row">
                                 <div className="col-3">
@@ -97,7 +97,7 @@ export default class Projects extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div id="a" className="col-sm-6">
+                        <div id="b" className="col-sm-6">
                             <img src={sudokuGif} className='sudoku-gif' alt="loading..." />
                         </div>
                         <div id="c" className="col-sm-6">
@@ -107,48 +107,6 @@ export default class Projects extends Component {
                                 </button>
                             </a>
                         </div>
-
-                    </div>
-                </div> */}
-                {/* PROJECT three */}
-                <div className="project-section">
-                    <div id="flex-1" className="row">
-                        <div id="b" className="col-sm-6 project-description">
-                            <div className="hacky-mobile-fix">
-                                <div className="project-type not-mobile">
-                                    Open Source
-                                </div>
-                                <div className="project-name">
-                                    Sudoku.com Solver
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col-3 not-mobile">
-                                    <hr />
-                                </div>
-                                <div className="col-7">
-                                    <p>
-                                        A Python program that uses the backtracking algorithm and Python Selenium to interface and solve
-                                        puzzles on sudoku.com.
-                                    </p>
-                                    <a href="https://github.com/kareemassad/sudoku-solver-py">
-                                        <button type="button" className="btn btn-dark">
-                                            Github <i className="fab fa-github github-icon"></i>
-                                        </button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="a" className="col-sm-6">
-                            <img src={sudokuGif} className='sudoku-gif' alt="loading..." />
-                        </div>
-                        {/* <div id="c" className="col-sm-6">
-                            <a href="https://github.com/kareemassad/sudoku-solver-py">
-                                <button type="button" className="btn btn-dark mobile-buttons">
-                                    Github <i className="fab fa-github github-icon"></i>
-                                </button>
-                            </a>
-                        </div> */}
                     </div>
                 </div>
             </div>
