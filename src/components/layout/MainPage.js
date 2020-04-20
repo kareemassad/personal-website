@@ -16,7 +16,7 @@ export default class MainPage extends Component {
                                 </h1>
                                 <p>
                                     My name is <b>Kareem El Assad</b> and I am a Computer Systems Engineering student based 
-                                    in Ottawa, Canada. I am a <b>2nd year student at Carleton University</b> and I am currently 
+                                    in Ottawa, Canada. I am a <b>3rd year student at Carleton University</b> and I am currently 
                                     exploring Machine Learning!
 							    </p>
                                 <button type="button" className="btn btn-outline-danger theme-color">
