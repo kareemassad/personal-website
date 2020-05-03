@@ -26,7 +26,7 @@ const MobileMenu = (props) => {
 }
 
 const Anchors = () => {
-    const anchorsArr = ["About", "Projects"];
+    const anchorsArr = ["About", "Projects", "Involvement"];
     return (anchorsArr.map(item => { return (<a key={item} href={`#${item}`}>{item}</a>) }));
 }
 

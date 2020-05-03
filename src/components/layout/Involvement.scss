@@ -3,7 +3,7 @@
 .containerify {
     width: auto;
     height: calc(100vh - 150px);
-    // margin: 0 auto;
+    margin: 0 auto;
 }
 
 .flip-card {
@@ -51,3 +51,10 @@
     transform: rotateY(180deg);
 }
 
+.hackathon-section {
+    padding: 0% 0% 0% 7.5%;
+}
+
+.conference-section {
+    padding: 0% 7.5% 0% 0%;
+}
