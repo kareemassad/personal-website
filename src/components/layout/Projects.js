@@ -95,6 +95,9 @@ export default class Projects extends Component {
                                         </button>
                                     </a>
                                 </div>
+                                <div className="col-2">
+
+                                </div>
                             </div>
                         </div>
                         <div id="b" className="col-sm-6">
