@@ -1,0 +1,53 @@
+@import "../../variable.scss";
+
+.containerify {
+    width: auto;
+    height: calc(100vh - 150px);
+    // margin: 0 auto;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: $card-size;
+    height: $card-size;
+    float: left;
+    perspective: 1000px;
+}
+
+.image-fit {
+    width: $card-size;
+    height: $card-size;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: $base-color;
+    color: black;
+}
+
+.flip-card-back {
+    color: black;
+    transform: rotateY(180deg);
+}
+
